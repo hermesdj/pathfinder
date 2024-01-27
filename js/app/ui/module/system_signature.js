@@ -532,7 +532,7 @@ define([
                     },
                     {
                         name: 'lazy',
-                        className: ['fa-exchange-alt', module._config.moduleHeadlineIconLazyClass].join(' '),
+                        className: ['fa-exchange-alt', 'active', module._config.moduleHeadlineIconLazyClass].join(' '),
                         titleAttr: 'lazy \'delete\' signatures',
                         attr:  {
                             'data-toggle': 'tooltip',
